@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Reflection Game</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="relection-game">
+			<h2>REFLECTION GAME</h2>
+			<div id="scoreboard">
+				<div id="timecount"></div>
+				<div id="correct">&#10004; <span id="correct-count">0</span></div>
+				<div id="wrong">&#10008; <span id="wrong-count">0</span></div>
+			</div>
+			
+			<div id="gameboard">
+				<div id="cover">
+					<p id="instructions">
+						Click only on the Green Target<br><br>
+					</p>
+						<button id="start">Start Game</button>
+				</div>
+				<div id="target"></div>
+			</div>			
+		</div> <!-- /div.reflection-game -->
+	</div>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
